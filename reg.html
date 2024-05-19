@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAGOONA</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container flex header-container">
+        <a href="index.html" class="header-logo">
+            <img src="img/logo.png" class="header-logo" alt="lagoona">
+        </a> 
+        <div class="header-helper flex">
+          <button class="header-btn btn-reset">
+            <a  href="feedback.html">
+                Обратный звонок
+            </a>
+          </button>
+        </div>
+        <div class="header-helper flex">
+            <a href="tel:+74953225448" class="contact-item-link">
+                +7 495 322-54-48
+            </a>
+            <a href="index.html" class="header-link-user">
+                Главная
+            </a>
+        </div>
+    </div>
+  </header>
+  <div class="container">
+      <h2 class="section-title">
+          Регистрация
+      </h2>
+      <div class="gray-box flex">
+          <div class="left-section-reg flex">
+            <form class="form_auth_style" action="scripts/reg_form.php" method="post" name="forma">
+              <ul class="form-list-reg list-reset flex">
+                <li class="form-items form-reg-label">
+                  <label class="label-item" for="auth_FirstName">Введите Ваше имя</label>
+                  <input class="form-select form-reg-input" type="text" name="auth_FirstName" placeholder="Введите Ваше имя" required >
+                </li>
+                <li class="form-items form-reg-label">
+                  <label class="label-item" for="auth_LastName">Введите Вашу фамилию</label>
+                  <input class="form-select form-reg-input" type="text" name="auth_LastName" placeholder="Введите Вашу Фамилию" required >
+                </li>
+                <li class="form-items form-reg-label">
+                  <label class="label-item" for="auth_login">Введите Ваш логин</label>
+                  <input class="form-select form-reg-input" type="text" name="auth_login" placeholder="Введите Ваш логин" required >
+                </li>
+                <li class="form-items form-reg-label">
+                  <label class="label-item" for="auth_email">Введите Ваш email</label>
+                  <input class="form-select form-reg-input" type="email" name="auth_email" placeholder="Введите Ваш email" required >
+                </li>
+                <li class="form-items form-reg-label">
+                  <label class="label-item" for="auth_pass">Введите Ваш пароль</label>
+                  <input class="form-select form-reg-input" type="password" name="auth_pass" placeholder="Введите пароль" required >
+                </li>
+                <li class="form-items form-reg-label">
+                  <input class="input-sub" id="submit" type="submit" name="submit" value="Отправить данные">
+                </li>
+              </ul>
+          </form>
+          </div>
+          <div class="right-section-reg recep">
+          </div>
+      </div>
+</div>
+</body>
+<footer class="container footer flex">
+  <div class="left-foot flex">
+      <ul class="list-reset footer-list">
+          <li class="footer-decr">
+              <p class="footer-text footer-name">
+                  &copy;&nbsp;2012&ndash;2024 Управляющая компания Объединённой сети &laquo;Китайская косметика&raquo;
+              </p>
+          </li>
+          <li class="footer-decr">
+              <p class="footer-text foter-info">
+              Представленная на&nbsp;сайте информация носит справочный характер и&nbsp;не&nbsp;является публичной офертой
+              </p>
+          </li>
+          <li class="footer-decr">
+              <a href="Terms_of_use.docx" download class="contact-link footer-user">
+                  Пользовательское соглашение
+              </a>
+          </li>
+      </ul>
+  </div>
+  <div class="center-foot flex">
+      <ul class="list-reset footer-list">
+          <li class="footer-decr">
+              <p class="footer-text footer-cont">
+              11710, Сочи, улица Рекордов, дом 9 строение 6, офис 206
+              </p>
+          </li>
+          <li class="footer-decr">
+              <ul class="list-reset">
+                  <li class="list-reset flex footer-cont">
+                      <a href="tel:+79183463489" class="contact-link">
+                          +7 918 346-34-89
+                      </a>
+                  </li>
+                  <li class="list-reset flex footer-cont">
+                      <a href="tel:+74950050544" class="contact-link">
+                          +7 495 005-05-44
+                      </a>
+                  </li>
+              </ul>
+          </li>
+          <li class="footer-decr footer-cont">
+              <a href="mailto:vitysha881221@gmail.com" class="contact-link">
+                  vitysha881221@gmail.com
+              </a>
+          </li>
+          <li class="footer-decr footer-cont">
+              <a href="vityusha.merzlyakov88@mail.ru" class="contact-link">
+                  vityusha.merzlyakov88@mail.ru
+              </a>
+          </li>
+      </ul>
+  </div>
+  <div class="footer-right flex">
+      <ul class="list-reset">
+          <li class="social-logo ok-logo"></li>
+          <li class="social-logo vk-logo"></li>
+      </ul>
+  </div>
+</footer>
+</html>
